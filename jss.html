@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<script>
-		function square() {
-    document.getElementById("square").innerHTML = Math.pow();
-}
-	</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function square() {
+            document.getElementById("square").innerHTML = Math.pow();
+        }
+    </script>
 </head>
 
 <body background="wood.jpg">
-	<div id="main">
-	<div class="h">
-	<h1>  CALCULATOR</h1>
-</div>
-<!--anyone can access-->
-	<form  id="myform" Name="calc">
-		<input id="dis" name="display"><br>
-		<input type=button value="1" Onclick="calc.display.value+='1'">
-		<input type=button value="2" Onclick="calc.display.value+='2'">
-		<input type=button value="3" Onclick="calc.display.value+='3'">
 
-		<input id="op"  type=button value="+" Onclick="calc.display.value+='+'">
-		<input id="op"  type=button value="n*n" Onclick="calc.display.value+=''">
-		<br>
+    <div id="main">
+        <div class="h">
+            <h1> CALCULATOR</h1>
+        </div>
+        <!--anyone can access-->
+        <form id="myform" Name="calc">
+            <input id="dis" name="display"><br>
 
-		<input type=button value="4" Onclick="calc.display.value+='4'">
-		<input type=button value="5" Onclick="calc.display.value+='5'">
-		<input type=button value="6" Onclick="calc.display.value+='6'">
+            <div class="lowerpart">
+                <input class="btn" type=button value="1" Onclick="calc.display.value+='1'">
+                <input class="btn" type=button value="2" Onclick="calc.display.value+='2'">
+                <input class="btn" type=button value="3" Onclick="calc.display.value+='3'">
 
-		<input id="op" type=button value="-" Onclick="calc.display.value+='-'">
-		<input id="op" type=button value="&#8730;" Onclick="calc.display.value+='-'"><br>
-		
-		<input type=button value="7" Onclick="calc.display.value+='7'">
-		<input type=button value="8" Onclick="calc.display.value+='8'">
-		<input type=button value="9" Onclick="calc.display.value+='9'">
-		<input id="op" type=button value="AC" Onclick="calc.display.value=''">
-		<input id="op" type=button value="%" Onclick="calc.display.value+='-'">
-		<br>
-		
-		<input id="op" type=button value="X" Onclick="calc.display.value+='*'">
-		
-		<input type=button value="0" Onclick="calc.display.value+='0'">
-		
+                <input class="btn" id="op" type=button value="+" Onclick="calc.display.value+='+'">
+                <input class="btn" id="op" type=button value="n*n" Onclick="calc.display.value+=''">
+                <br>
 
-		<input id="op" type=button value="&divide;" Onclick="calc.display.value+='/'">
-		<input id="op" type=button value="=" Onclick="calc.display.value=eval(calc.display.value)">
-		<input id="op" type=button value="n^3" Onclick="calc.display.value+='-'">
-		
-	</form>
-</div>
-	</body>
+                <input class="btn" type=button value="4" Onclick="calc.display.value+='4'">
+                <input class="btn" type=button value="5" Onclick="calc.display.value+='5'">
+                <input class="btn" type=button value="6" Onclick="calc.display.value+='6'">
+
+                <input class="btn" id="op" type=button value="-" Onclick="calc.display.value+='-'">
+                <input class="btn" id="op" type=button value="&#8730;" Onclick="calc.display.value+='-'"><br>
+
+                <input class="btn" type=button value="7" Onclick="calc.display.value+='7'">
+                <input class="btn" type=button value="8" Onclick="calc.display.value+='8'">
+                <input class="btn" type=button value="9" Onclick="calc.display.value+='9'">
+                <input class="btn" id="op" type=button value="AC" Onclick="calc.display.value=''">
+                <input class="btn" id="op" type=button value="%" Onclick="calc.display.value+='-'">
+                <br>
+
+                <input class="btn" id="op" type=button value="X" Onclick="calc.display.value+='*'">
+
+                <input class="btn" type=button value="0" Onclick="calc.display.value+='0'">
+
+                <input class="btn" id="op" type=button value="&divide;" Onclick="calc.display.value+='/'">
+                <input class="btn" id="op" type=button value="=" Onclick="calc.display.value=eval(calc.display.value)">
+                <input class="btn" id="op" type=button value="n^3" Onclick="calc.display.value+='-'">
+            </div>
+        </form>
+    </div>
+</body>
