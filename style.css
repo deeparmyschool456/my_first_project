@@ -7,11 +7,13 @@
 }
 
 .h {
+    background-color: white;
     display: inline-block;
+    color: blue;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    border: solid 2px black;
-    border-radius: 5px;
+    border: double 4px aqua;
+    border-radius: 15px;
     width: 30%;
     padding: 2px 10px;
 }
@@ -21,39 +23,45 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 15px;
     width: 30%
+
 }
 
 form {
     display: block;
+    border: double 4px blue;
+    border-radius: 15px;
+    width: 30%;
+
 }
 
 #dis {
     width: 100%;
     padding: 5px;
     font-size: 35px;
-    border: 2px solid black;
-    border-radius: 3px;
+    border: double 4px aqua;
+    border-radius: 15px;
     margin-bottom: 10px;
     text-align: right;
 }
 
 .lowerpart {
     padding: 5px 0px;
-    border: 2px solid black;
-    border-radius: 3px;
+    border: double 4px aqua;
+    border-radius: 15px;
 }
 
 .btn {
     padding: 0px;
     margin: 0px;
     width: 19%;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0px;
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+    background-color: aqua;
+    color:blue;
 }
